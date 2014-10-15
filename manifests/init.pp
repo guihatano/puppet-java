@@ -1,6 +1,6 @@
 class java (
   $usuario = 'guihatano',
-  $download = 'no',
+  $download = 'yes',
 ) {
 	file { "/home/${usuario}/opt":
                 ensure => 'directory',
